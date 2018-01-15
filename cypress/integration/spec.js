@@ -12,7 +12,7 @@ beforeEach(() => {
     onBeforeLoad: win => {
       addScript(win.document, 'dist/babel-browser-build.js') // must be first
       addScript(win.document, 'dist/browser-es-module-loader.js')
-    }
+    },
   })
 })
 
