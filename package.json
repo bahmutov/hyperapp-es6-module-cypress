@@ -1,0 +1,30 @@
+{
+  "name": "hyperapp-es6-module-cypress",
+  "version": "1.0.0",
+  "description": "Testing Hyperapp with ES6 module import in Cypress example",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/hyperapp-es6-module-cypress.git"
+  },
+  "keywords": [
+    "hyperapp",
+    "test",
+    "es6",
+    "module",
+    "cypress",
+    "example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/hyperapp-es6-module-cypress/issues"
+  },
+  "homepage": "https://github.com/bahmutov/hyperapp-es6-module-cypress#readme",
+  "devDependencies": {
+    "cypress": "^1.4.1"
+  }
+}
