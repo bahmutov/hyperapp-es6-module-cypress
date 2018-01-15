@@ -6,7 +6,7 @@ If your application uses `<script type="module">` and you pick Electron browser 
 
 Example: mini app importing Hyperapp framework as a module
 
-![images/hyperapp-import.png](images/hyperapp-import.png)
+![images/hyperapp-import.png](images/hyperapp-import.jpg)
 
 The test [spec.js](cypress/integration/spec.js) loads modules from [dist](dist) folder that add ES6 support
 
@@ -31,4 +31,4 @@ beforeEach(() => {
 
 And now the tests run in Electron browser
 
-![Electron is running tests](images/app-is-running/png)
+![Electron is running tests](images/app-is-running.png)
