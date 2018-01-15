@@ -2,6 +2,8 @@
 
 > Testing Hyperapp with ES6 module import in Cypress example
 
+Read blog [post](https://glebbahmutov.com/blog/testing-es6-module-in-cypress-electron/)
+
 If your application uses `<script type="module">` and you pick Electron browser in [Cypress](https://www.cypress.io) end-to-end test runner, the app won't run. This example shows how to add ES6 module support to the Electron browser from your tests.
 
 Example: mini app importing Hyperapp framework as a module
